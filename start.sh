@@ -32,7 +32,7 @@ sleep 0.9
 clear
 printf "\e[1;45m Well Done!  \e[0m\n"
 printf "\e[1;45m Just Type python engine.py -h for more help \e[0m\n"
-cd $HOME/Engine-Searches && mv .engine.py engine.py && rm start.sh
+cd $HOME/Engine-Searches && mv .engine.py engine.py && rm start.sh && python engine.py
 fi
 if [[ $choice == "n" ]]; then 
 clear
