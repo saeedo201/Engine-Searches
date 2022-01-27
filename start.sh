@@ -27,7 +27,7 @@ if [[ $choice == "y" ]]; then
 clear
 sleep 1
 echo -e "$g+++++++++++++++>$p[Please Wait]$g<+++++++++++++++++"
-pip install search_engine_parser
+pip install search_engine_parser -y
 sleep 0.9
 clear
 printf "\e[1;45m Well Done!  \e[0m\n"
