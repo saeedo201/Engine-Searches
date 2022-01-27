@@ -40,7 +40,7 @@ python engine.py --domim zain.sd --engine google
 python engine.py -d mtn.play.sd -e all
 """)
 optparse.add_option("-d","--domin",dest="domin",type="string",help="Domain to search or company name")
-optparse.add_option("-e","--engine",dest="engine",type="string",help="Engine: google, yahoo, baidu, aol, bing, ask, all")
+optparse.add_option("-e","--engine",dest="engine",type="string",help="Engine: google, yahoo, yandex, bing, ask, all")
 (option,args) = optparse.parse_args()
 if option.domin == None and option.engine == None:
 	print(optparse.usage)
